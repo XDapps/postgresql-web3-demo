@@ -4,7 +4,7 @@ This is a demo of a PostgreSQL implementation to track token balances by address
 
 ## Setup
 
-1. Setup a PostgreSQL database to work with.
+1. Setup a PostgreSQL database.
 2. Run all of the queries in the 3 folders here to create and initialize the database tables and functions.
 3. Setup event listeners to listen to the contracts that you'd like to track. [EVM Listeners Example](https://github.com/XDapps/ethers-event-listeners-lib)
 4. When an event is detected:
@@ -15,5 +15,5 @@ That's it! The functions will update all of the values and move the event data t
 
 This allows you to go back and re-process events that you may have missed if you had an issue with your RPC connection etc... You can always re-process events with no worry of the counts being duplicated.
 
->[Note]
->Any tokens that you choose to listen to you should start from when they were initially minted and go back and process all of the events from inception in order to ensure that your balances are in sync with the chain
+>[!NOTE]
+>Any tokens that you choose to listen to you should start from when they were initially minted and go back and process all of the events from inception in >order to ensure that your balances are in sync with the chain
