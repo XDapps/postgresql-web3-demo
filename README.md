@@ -16,4 +16,4 @@ That's it! The functions will update all of the values and move the event data t
 This allows you to go back and re-process events that you may have missed if you had an issue with your RPC connection etc... You can always re-process events with no worry of the counts being duplicated.
 
 >[!NOTE]
->Any tokens that you choose to listen to you should start from when they were initially minted and go back and process all of the events from inception in >order to ensure that your balances are in sync with the chain
+>Any tokens that you choose to listen to you should start from when they were initially minted and go back and process all of the events from inception in order to ensure that your balances are in sync with the chain
